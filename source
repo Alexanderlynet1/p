@@ -1,0 +1,21 @@
+--gui stuff
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Alt Control | Premium", "Ocean")
+
+
+--credits
+local CreditsTab = Window:NewTab("Credits")
+local creditsection1 = CreditsTab:NewSection("Made By NotMxsticDK#6969")
+local creditsection2 = CreditsTab:NewSection("Discord Invite: https://discord.gg/78caKJWVqh")
+local creditsection3 = CreditsTab:NewSection("Current Rank: Premium")
+local creditsection4 = CreditsTab:NewSection("Be sure to vouch me in my discord listed above.")
+
+
+--playertab
+local PlayerTab = Window:NewTab("Commands")
+local commands1 = PlayerTab:NewSection(".bring")
+local commands2 = PlayerTab:NewSection(".drop")
+local commands3 = PlayerTab:NewSection(".block")
+local commands4 = PlayerTab:NewSection(".crash")
+local commands5 = PlayerTab:NewSection("tp (admin - train - school - bank - club - basketball)")
+local commands6 = PlayerTab:NewSection(".airlock")
